@@ -8,14 +8,11 @@ from fastapi.responses import JSONResponse
 from pydantic import BaseModel, EmailStr
 from typing import List, Optional
 import os
-import sys
 import resend
-from pathlib import Path
 import tempfile
 import logging
 
-# Add parent directory to path to import invoice generation modules
-sys.path.append(str(Path(__file__).parent.parent))
+# Import invoice generation modules from the same directory
 from generate_invoice import generate_html, calculate_item_totals
 from generate_proforma_invoice import generate_proforma_html, calculate_proforma_totals
 from convert_to_pdf import html_to_pdf
