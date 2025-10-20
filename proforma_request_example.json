@@ -1,0 +1,49 @@
+{
+  "invoice": {
+    "number": "00PI25-00000003",
+    "date_of_issuing": "October 20, 2025"
+  },
+  "issued_to": {
+    "name": "John Smith",
+    "address": "123 Main Street, Apartment 4B, New York, NY, 10001, USA",
+    "trn": "",
+    "email": "john.smith@example.com"
+  },
+  "terms": {
+    "payment_terms": "Advance payment of 50% before Delivery"
+  },
+  "items": [
+    {
+      "description": "Diamond Ring 18K White Gold, 1.5ct Solitaire",
+      "sub_description": "GIA Certified, D-VVS1, SKU: DR-18K-150",
+      "quantity": 1.0,
+      "uom": "Pcs",
+      "price_incl_vat_aed": 25000.00,
+      "discount_pct": 15,
+      "vat_pct": 5
+    },
+    {
+      "description": "Pearl Necklace, 18K Yellow Gold, AAA+ Grade Pearls",
+      "sub_description": "",
+      "quantity": 2.0,
+      "uom": "Pcs",
+      "price_incl_vat_aed": 8500.00,
+      "discount_pct": 10,
+      "vat_pct": 5
+    },
+    {
+      "description": "Emerald Earrings, 18K Rose Gold, 2.3ct Colombian Emeralds",
+      "sub_description": "Matching pair, E-VVS, SKU: EE-18K-230",
+      "quantity": 1.0,
+      "uom": "Pcs",
+      "price_incl_vat_aed": 18750.00,
+      "discount_pct": 20,
+      "vat_pct": 5
+    }
+  ],
+  "amount_in_words": "Forty seven thousand one hundred AED ONLY",
+  "recipient_emails": [
+    "ivan.f@mxd.digital"
+  ]
+}
+

@@ -1,0 +1,18 @@
+[Unit]
+Description=Invoice Generator API
+After=network.target
+
+[Service]
+Type=notify
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/invoice-api/fast_api_invoice_server
+Environment="PATH=/var/www/invoice-api/venv/bin"
+EnvironmentFile=/var/www/invoice-api/fast_api_invoice_server/.env
+ExecStart=/var/www/invoice-api/venv/bin/gunicorn main:app -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+

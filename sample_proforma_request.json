@@ -1,0 +1,40 @@
+{
+  "invoice": {
+    "number": "00PI25-00000002",
+    "date_of_issuing": "October 12, 2025"
+  },
+  "issued_to": {
+    "name": "Diachuk Valeriia",
+    "address": "450 Folsom street, 2409, San Francisco, CA, 94105",
+    "trn": "",
+    "email": "valsudilovskaya@gmail.com"
+  },
+  "terms": {
+    "payment_terms": "Advance payment of 50% before Delivery"
+  },
+  "items": [
+    {
+      "description": "AU 750 15 Pear cut LG diamonds 4,221 ct colorless, 4-70, 5-54 GR, NECKLACE PR-CH-WG422",
+      "sub_description": "",
+      "quantity": 1.0,
+      "uom": "Pcs",
+      "price_incl_vat_aed": 36493.00,
+      "discount_pct": 20,
+      "vat_pct": 5
+    },
+    {
+      "description": "Cuff Earrings, 18K White Gold, 3 pcs, LG \"Pear\" - 0.763 ct., 1 pc. LG \"Heart\" - 0.574 ct., 5 pcs. LG \"Round\" - 0.088 ct. Total Carat Weight - 1.425 ct.",
+      "sub_description": "D-F/VS, 18K-WG-CUFF-9-1.425CT",
+      "quantity": 1.0,
+      "uom": "Pcs",
+      "price_incl_vat_aed": 10907.00,
+      "discount_pct": 20,
+      "vat_pct": 5
+    }
+  ],
+  "amount_in_words": "Thirty seven thousand nine hundred twenty AED ONLY",
+  "recipient_emails": [
+    "ivan.f@mxd.digital"
+  ]
+}
+

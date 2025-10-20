@@ -1,0 +1,34 @@
+{
+  "invoice": {
+    "number": "00TI25-00000011",
+    "date_of_issuing": "March 6, 2025",
+    "date_of_supply": "March 6, 2025"
+  },
+  "issued_to": {
+    "name": "Beach Gentry Thomas",
+    "address": "5911 Brixworth drive<br/>Tyler Texas 75703",
+    "trn": "",
+    "tel": "",
+    "email": "Gentrybeach@gmail.com"
+  },
+  "terms": {
+    "payment_terms": "Payment on Delivery",
+    "delivery_terms": ""
+  },
+  "items": [
+    {
+      "description": "Ring 18K 1\" Cushion\" cut 20.12ct., E/VVS2, 2 \"Trillion\" Cut F/VVS IGI 660432368, 18K-RNG-1CUSH20-12-EVVS2-2TRI-FVVS",
+      "quantity": 1.0,
+      "uom": "Pcs",
+      "price_aed": 486537.13,
+      "discount_pct": 56.87,
+      "vat_pct": 5,
+      "rate_usd": 3.6725
+    }
+  ],
+  "supply_total_text": "Two hundred twenty thousand three hundred fifty AED ONLY",
+  "recipient_emails": [
+    "ivan.f@mxd.digital"
+  ]
+}
+
