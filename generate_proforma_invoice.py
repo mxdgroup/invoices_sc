@@ -101,7 +101,7 @@ def generate_proforma_html(json_file, output_html):
     
     # Image paths - use absolute paths relative to the script location
     import pathlib
-    script_dir = pathlib.Path(__file__).parent / 'fast_api_invoice_server'
+    script_dir = pathlib.Path(__file__).parent
     logo_path = script_dir / 'logo.png'
     signature_path = script_dir / 'signutare.png'
     stamp_path = script_dir / 'stamp.png'
