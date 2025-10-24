@@ -79,7 +79,7 @@ def generate_proforma_html(json_file, output_html):
     issued_by = {
         'company_name': 'SUZANNE CODE JEWELLERY TRADING L.L.C.',
         'address': 'Shop BF-05 ,Burj Khalifa, Emaar  The Dubai Mall Fountain Views, PO Box:9440, Dubai, UAE',
-        'trn': '',  # Intentionally blank for proforma
+        'trn': '104644174200003',
         'tel': '+971505752796',
         'email': 'uae@suzannecode.com'
     }
@@ -94,10 +94,8 @@ def generate_proforma_html(json_file, output_html):
     # Calculate totals
     totals = calculate_proforma_totals(data['items'])
     
-    # Calculate advance payment (50% of total)
-    total_value = float(totals['total_incl_vat'].replace(',', ''))
-    advance_payment = total_value * 0.5
-    advance_payment_formatted = format_number(advance_payment, 2)
+    # Get amount paid from terms (dynamic value from JSON)
+    amount_paid_value = data['terms']['amount_paid']
     
     # Image paths - use absolute paths relative to the script location
     import pathlib
@@ -266,7 +264,7 @@ def generate_proforma_html(json_file, output_html):
         </tr>
       </table>
 
-      <div class="terms">Terms and Conditions: {data['terms']['payment_terms']} <b>{advance_payment_formatted} AED</b></div>
+      <div class="terms">Terms and Conditions: {data['terms']['payment_terms']} <b>{amount_paid_value} AED</b></div>
 
       <div class="released">
         <div style="min-width:280px">

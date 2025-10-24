@@ -97,6 +97,7 @@ class ProformaIssuedTo(BaseModel):
 
 class ProformaTerms(BaseModel):
     payment_terms: str
+    amount_paid: str
 
 class ProformaItem(BaseModel):
     description: str
